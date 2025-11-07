@@ -4,7 +4,7 @@ struct a {
 };
 struct d {};
 volatile struct a e = {14};
-f;
+int f;
 struct d g(short);
 static h() {
   if (e, g(e.c), f)
@@ -15,4 +15,4 @@ struct d g(short i) {
   for (;;)
     ;
 }
-main() { h(); }
+int main() { h(); }
